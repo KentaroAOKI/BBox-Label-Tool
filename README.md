@@ -17,12 +17,14 @@ LabelTool
 
 Dependency
 ----------
-python 2.7 win 32bit
+python 2.7
 PIL-1.1.7.win32-py2.7
 
-Startup
+Startup for anaconda
 -------
-$ python main.py
+> conda create -n py27 python=2.7
+> activate py27
+> python main.py
 
 Usage
 -----
